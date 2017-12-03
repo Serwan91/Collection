@@ -10,6 +10,13 @@ namespace Collections
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Array List :-");
+            ArrayListDemo.loadElements();
+            Console.WriteLine("Dictionary List :-");
+            DictionaryDemo.Display();
+
+
+            Console.Read();
         }
     }
 }
